@@ -1,0 +1,9 @@
+comparator,metric,mean_difference_proposed_minus_comparator,ci_2_5,ci_97_5,probability_proposed_better,bootstrap_replicates,bootstrap_unit
+Logistic + Gamma GLM,soft_rmse,-5.350150480084949,-8.978467675038747,-2.282827163734442,0.998,500,ID_policy
+Logistic + Gamma GLM,soft_mae,-9.181342407114538,-10.398896338356362,-8.01192325024271,1.0,500,ID_policy
+Logistic + Gamma GLM,brier,-0.0009225470312308798,-0.0012072009366196365,-0.0006614802150791793,1.0,500,ID_policy
+Logistic + Gamma GLM,severity_rmse,-5.009417735272062,-8.077878194232818,-1.7649387928309943,0.998,500,ID_policy
+HistGradientBoosting two-part,soft_rmse,-4.022732525428536,-7.917820364806647,0.2744073196361707,0.97,500,ID_policy
+HistGradientBoosting two-part,soft_mae,-6.660716704140077,-8.233169884047971,-5.078903012769508,1.0,500,ID_policy
+HistGradientBoosting two-part,brier,0.00032131538562472835,6.889718055050933e-05,0.0006111099712133992,0.0,500,ID_policy
+HistGradientBoosting two-part,severity_rmse,-6.525379288438067,-10.946058757420934,-1.6247948978294062,0.996,500,ID_policy
